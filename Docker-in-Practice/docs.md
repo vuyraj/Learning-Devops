@@ -72,3 +72,11 @@ This explains how docker can start containers quickly.
 
 ID can be used to create different images by refrencing the same layers if the new image requires the exact same layer. 
 So images can share different layers. To make the container size small we can operate on layers level and remove non required layers and share same layers (make layers sharable as much as possible). 
+
+
+## Understanding Docker:Inside the engine room
+
+### Docker’s architecture
+![alt arch](./images/ch2-arch)
+
+### Docker registries
