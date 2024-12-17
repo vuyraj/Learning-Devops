@@ -77,6 +77,6 @@ So images can share different layers. To make the container size small we can op
 ## Understanding Docker:Inside the engine room
 
 ### Docker’s architecture
-![alt arch](./images/ch2-arch)
+![alt arch](./images/ch2-arch.png)
 
 ### Docker registries
