@@ -9,7 +9,8 @@ This command is used to print  the current working directory.
 		- L    =>  Prints the absolute physical path 
 		- P    => Prints the absolute path with resolved symlnk
 		
-![[1-pwd.png]]
+![alt pwd](Images/1-pwd.png)
+
 
 
 ### Cd
@@ -26,7 +27,7 @@ This command is used for changing the Directory.
 	5. cd - => goto previous directory 
 
 There is a new smarter cd command named zoxide for changing directories written in rust. It keeps track of the directories we use most frequently, and uses a ranking algorithm to navigate to the best match.
-![[2-cd.png]]
+![alt pwd](Images/2-cd.png)
 
 ### Ls 
 
