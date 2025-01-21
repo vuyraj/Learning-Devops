@@ -43,7 +43,7 @@ This command is used for listing directory contents. It list alphabetically and 
 				- d => only diirectories
 I was using eza for listing which a new tool for listing and it gives a nice color format as well as other features.
 
-![[3-ls.png]]
+![alt ls](Images/3-ls.png)
 ### Cat
 
 This command is used to print and concatenate file.
@@ -59,7 +59,7 @@ This command is used to print and concatenate file.
 		-  [n]umber all output lines:
 			 `cat -n path/to/file
 
-![[4-cat.png]]
+![alt cat](Images/4-cat.png)
 
 ### Cp 
 This command is used to copy files and directories.
@@ -70,20 +70,21 @@ This command is used to copy files and directories.
 		- t => multiple file at once
 		- --parents => create any missing intermediate directories.
 
-![[5-cp.png]]
+![alt cp](Images/5-cp.png)
 ### Mv 
 This command is used to move or rename files or directories
 	flags:
 		-- force => forcefully move the file
 		-- interactive => ask for confirmation before overwriting the files.
 
-![[6-mv.png]]
+![alt mv](Images/6-mv.png)
 ### Mkdir
 This command is used to make a directory. It can be used to set permissions while creatinf the directory.
 	flags:
 		-p => Create parents directory if needed
 		-m => Create directories with specific permissions
-	![[7-mkdir.png]]
+		
+![alt 7](Images/7-mkdir.png)
 ### Rm 
 This command is used to remove files or directories (rmdir). 
 	flags:
