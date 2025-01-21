@@ -84,7 +84,7 @@ This command is used to make a directory. It can be used to set permissions whil
 		-p => Create parents directory if needed
 		-m => Create directories with specific permissions
 		
-![alt 7](Images/7-mkdir.png)
+![alt mkdir](Images/7-mkdir.png)
 ### Rm 
 This command is used to remove files or directories (rmdir). 
 	flags:
@@ -92,6 +92,7 @@ This command is used to remove files or directories (rmdir).
 		- f =>  delete forcefully
 		- i => delete interactively
 		- v => Verbose
+![alt rm](Images/8-rm.png)
 
 ### Touch
 This command is used to create files and can also set access/modification times.
