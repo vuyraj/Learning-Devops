@@ -44,6 +44,7 @@ This command is used for listing directory contents. It list alphabetically and 
 I was using eza for listing which a new tool for listing and it gives a nice color format as well as other features.
 
 ![alt ls](Images/3-ls.png)
+
 ### Cat
 
 This command is used to print and concatenate file.
@@ -71,6 +72,7 @@ This command is used to copy files and directories.
 		- --parents => create any missing intermediate directories.
 
 ![alt cp](Images/5-cp.png)
+
 ### Mv 
 This command is used to move or rename files or directories
 	flags:
@@ -78,6 +80,7 @@ This command is used to move or rename files or directories
 		-- interactive => ask for confirmation before overwriting the files.
 
 ![alt mv](Images/6-mv.png)
+
 ### Mkdir
 This command is used to make a directory. It can be used to set permissions while creatinf the directory.
 	flags:
@@ -85,6 +88,7 @@ This command is used to make a directory. It can be used to set permissions whil
 		-m => Create directories with specific permissions
 		
 ![alt mkdir](Images/7-mkdir.png)
+
 ### Rm 
 This command is used to remove files or directories (rmdir). 
 	flags:
@@ -92,6 +96,7 @@ This command is used to remove files or directories (rmdir).
 		- f =>  delete forcefully
 		- i => delete interactively
 		- v => Verbose
+
 ![alt rm](Images/8-rm.png)
 
 ### Touch
@@ -246,7 +251,7 @@ This a powerful command line utility which is used to control the systemd system
 		- enable|disable
 		- daemon-reload
 		- is-active|is-enabled|is-failed unit
-- 
+ 
 ### useradd/userdel
 These are used to create or delete users in linux system. Usually they are superuser command.
 
