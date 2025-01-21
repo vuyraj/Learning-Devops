@@ -5,7 +5,7 @@ Some of the useful and basic linux cli commands are given below :-
 ### PWD
 
 This command is used to print  the current working directory.
-	flags :
+Flags :
 		- L    =>  Prints the absolute physical path 
 		- P    => Prints the absolute path with resolved symlnk
 		
@@ -82,7 +82,7 @@ This command is used to move or rename files or directories
 ![alt mv](Images/6-mv.png)
 
 ### Mkdir
-This command is used to make a directory. It can be used to set permissions while creatinf the directory.
+This command is used to make a directory. It can be used to set permissions while creating the directory.
 	flags:
 		-p => Create parents directory if needed
 		-m => Create directories with specific permissions
