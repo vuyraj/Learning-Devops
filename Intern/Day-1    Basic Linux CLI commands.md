@@ -101,8 +101,7 @@ This command is used to make a directory. It can be used to set permissions whil
 ![alt mkdir](Images/7-mkdir.png)
 
 ### Rm 
-This command is used to remove files or directories (rmdir). 
-```
+This command is used to remove files or directories (rmdir). ```
 Flags:
 		- r => delete recursively
 		- f =>  delete forcefully
