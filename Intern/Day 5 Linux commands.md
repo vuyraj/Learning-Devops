@@ -20,25 +20,29 @@ Flags
 ```
 
 
-
+![](Images/d5-netstat.png)
 
 ### Telnet
 
 Telnet is a command used to connect to remote host. It has low security as it uses clear plain text for communication. So, it is not much use. I can also be used to check if a port is open or not . It allows 2 way communication between hosts.
 
 
-
+![](Images/d5-telnet.png)
 
 ### Firewall
+It is a program used to protect the device from the unwanted traffic from the internet.
+
+firewalld is a service daemon that provides basic dynamic customizable host based firewall with d-bus interface.
+
+firewalld uses the concepts of zones and services, that simplify the traffic management.
 
 
-
-
+![](Images/d5-firewalld.png)
 ### ufw
 
 
 
-
+![](Images/d5-.png)
 ### /etc/passwd
 
 This file include users and its associated data.A whole single line describes about a user. This file contains :-
@@ -50,20 +54,21 @@ This file include users and its associated data.A whole single line describes ab
 6. home directory
 7. user shell (which is started when user login to the system)
 
+![](Images/d5-.png)
 ### chmod
 
 
-
+![](Images/d5-.png)
 
 ### chown
 
 
 
-
+![](Images/d5-.png)
 ### top
 
 
-
+![](Images/d5-.png)
 
 ### ps
 
@@ -74,7 +79,7 @@ This file include users and its associated data.A whole single line describes ab
 
 
 
-
+![](Images/d5-.png)
 
 ### useradd
 This command is used to create a new user.
@@ -114,13 +119,13 @@ This command is used to modify a user account.
 
 
 
-
+![](Images/d5-.png)
 ### journalctl
 
 
 
 
-
+![](Images/d5-.png)
 
 
 
@@ -137,28 +142,29 @@ It is an interpreter based program.
 ###  Create a user tom having sudo privilege and home directory as /home/tom.
 
 
-
+![](Images/d5-.png)
 
 
 ###  Create user cat without sudo privilege and without home directory.
 
 
-
+![](Images/d5-.png)
 
 ###  Create a file from user tom and edit it from cat user.
 
 
-
+![](Images/d5-.png)
 
 ###  Write a script named helloworld.sh to display “Hello World”.
 
 
-
+![](Images/d5-q-3.png)
 
 ###  Write a script named display.sh to prompt for a number and display it.
 
 
-
+![](Images/d5-q-4.png)
 
 ###  Write a script to determine if a user-inputted number is positive, negative, or Zero.
 
+![](Images/d5-.png)
