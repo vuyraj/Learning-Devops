@@ -147,11 +147,9 @@ This command known as Secure Shell is a protocol used to securely log onto remot
 
 ![](Images/14-ssh.png)
 ### Df 
-This command is used to display an overview of the filesystem disk space usage.
-```
+This command is used to display an overview of the filesystem disk space usage.```
 Flags:
-		- h => human readable
-```		
+		- h => human readable```		
 ![](Images/15-df.png)
 ### Du
 This command is used to see the file and directories space usage.
