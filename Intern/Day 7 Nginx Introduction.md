@@ -44,7 +44,7 @@ when the user executes the `nginx -s reload` command . A signal for reload is se
 
 ### Configuration File structure in Nginx
 
-- Conf file consists of modules which are controlled by directives. The directive could be said as simple commands / directions.
+- Conf file consists of modules which are controlled by directives. The directive could be said as simple key value pairs.
 - Nginx has simple directives (single line ;)and block directive ({ multiple lines })
 - A block directive is called an context if it has other directives inside it. eg: http, server, location, events, etc.
 - a directive without any context is inside the main context by default.
